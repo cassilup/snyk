@@ -16,6 +16,7 @@ const commands = {
   policy: hotload('./policy'),
   protect: hotload('./protect'),
   test: hotload('./test'),
+  showDeps: hotload('./showDeps'),
   version: hotload('./version'),
   wizard: hotload('./protect/wizard'),
   woof: hotload('./woof'),
