@@ -1,4 +1,6 @@
-#!/usr/bin/env node
+require('../../package.json');
+require('../../config.default.json');
+
 import 'source-map-support/register';
 import * as Debug from 'debug';
 import * as pathLib from 'path';
